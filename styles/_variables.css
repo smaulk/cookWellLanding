@@ -1,0 +1,50 @@
+:root{
+    --green-color: #2FC822;
+    --green-dark-color: #0C9500;
+    --green-light-color: #66D65C;
+    --yellow-color: #EA9C27;
+    --yellow-light-color: #E2B777;
+    --blue-color: #0D81C2;
+    --blue-light-color: #41A3D9;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url("../fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: 'OpenSans Medium';
+    src: url("../fonts/OpenSans/OpenSans-Medium.ttf");
+}
+@font-face {
+    font-family: 'OpenSans SemiBold';
+    src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: 'OpenSans Condensed-Regular';
+    src: url("../fonts/OpenSans/OpenSans_Condensed-Regular.ttf");
+}
