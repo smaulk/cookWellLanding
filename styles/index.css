@@ -4,6 +4,18 @@
     z-index: 1031;
 }
 
+.btn-orange{
+    width: 100%;
+    background-color: var(--yellow-color);
+    color: white;
+    font-family: "OpenSans Bold";
+    border-radius: 10px;
+}
+.btn-orange:hover{
+    background-color: var(--yellow-light-color);
+    color: white;
+}
+
 .btn-login{
     border-radius: 0;
     width: 144px;
@@ -103,17 +115,8 @@
 }
 
 .start-block-button button{
-    width: 100%;
     height: 43px;
-    background-color: var(--yellow-color);
-    color: white;
-    font-family: "OpenSans Bold";
     font-size: 14px;
-    border-radius: 10px;
-}
-.start-block-button button:hover{
-    background-color: var(--yellow-light-color);
-    color: white;
 }
 
 
@@ -128,11 +131,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px 50px;
-    background-color: #F9F9F9;
+    padding: 30px 50px;
+    background-color: var(--white-color);
     border-radius: 10px;
 }
-.course > img{
+.course-image{
     width: 100%;
 }
 .course-title{
@@ -141,9 +144,106 @@
     color: var(--yellow-color);
 }
 .course-text {
+    font-family: "OpenSans Regular";
+    font-size: 20px;
+    color: var(--gray-color);
+    margin-bottom: 30px;
+}
+.course-button{
+    margin-top: auto;
+    width: 100%;
+    height: 60px;
+    background-color: var(--green-dark-color);
+    font-family: "OpenSans Bold";
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+}
+.course-button:hover{
+    background-color: var(--green-color);
+    color: white;
+}
+
+
+.bonus{
 
 }
 
+.bonus-title{
+    text-align: center;
+}
+.bonus-title-main, .bonus-title-name{
+    font-size: 32px;
+    color: var(--green-dark-color);
+}
+.bonus-title-main{
+    font-family: "Montserrat Regular";
+        margin: 0;
+}
+.bonus-title-name{
+    font-family: "Pacifico";
+}
+
+.bonus-images{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bonus-images > img{
+    object-fit: cover;
+}
+
+.bonus-text-title, .bonus-text-info{
+    color: var(--gray-color);
+}
+.bonus-text-title{
+    font-family: "OpenSans Bold";
+    font-size: 26px;
+}
+.bonus-text-info{
+    font-family: "OpenSans SemiBold";
+    font-size: 16px;
+}
+
+.bonus-form{
+    background-color: var(--green-color);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.bonus-form input{
+    background-color: var(--white-color);
+    color: black;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.bonus-form button{
+    height: 60px;
+    font-size: 26px;
+}
+
+.bonus-comment p {
+    font-family: "Pacifico";
+    font-size: 18px;
+    color: var(--blue-color);
+    text-align: center;
+}
+
+
+.school-info{
+
+}
+.school-info-title{
+    font-family: "Montserrat Bold";
+    color: var(--green-dark-color);
+    font-size: 34px;
+}
+.school-info-text{
+    font-family: "OpenSans Bold";
+    color: var(--gray-color);
+    font-size: 18px;
+}
 
 /* Small */
 @media (min-width: 576px) {
@@ -159,6 +259,15 @@
     .courses-title {
         font-size: 32px;
     }
+    .bonus-comment p {
+        font-size: 20px;
+    }
+    .bonus-text-title{
+        font-size: 28px;
+    }
+    .bonus-text-info{
+        font-size: 20px;
+    }
 }
 /* Medium */
 @media (min-width: 768px) {
@@ -169,6 +278,21 @@
     }
     .courses-title {
         font-size: 42px;
+    }
+    .bonus-comment p {
+        font-size: 22px;
+    }
+    .bonus-text-title{
+        font-size: 30px;
+    }
+    .bonus-text-info{
+        font-size: 20px;
+    }
+    .school-info-title{
+        font-size: 40px;
+    }
+    .school-info-text{
+        font-size: 22px;
     }
 
 }
@@ -194,6 +318,13 @@
     .courses-title {
         font-size: 52px;
     }
+    .school-info-title{
+        font-size: 48px;
+    }
+    .school-info-text{
+        font-size: 24px;
+    }
+
 }
 /* Extra large */
 @media (min-width: 1200px) {
@@ -216,6 +347,22 @@
     .courses-title {
         font-size: 60px;
     }
+    .bonus-comment p {
+        font-size: 24px;
+    }
+    .bonus-text-title{
+        font-size: 32px;
+    }
+    .bonus-text-info{
+        font-size: 22px;
+    }
+    .school-info-title{
+        font-size: 54px;
+    }
+    .school-info-text{
+        font-size: 28px;
+    }
+
 }
 /* Extra extra large */
 @media (min-width: 1400px) {
@@ -225,5 +372,12 @@
     .courses-title {
         font-size: 64px;
     }
+    .school-info-title{
+        font-size: 56px;
+    }
+    .school-info-text{
+        font-size: 30px;
+    }
+
 }
 
