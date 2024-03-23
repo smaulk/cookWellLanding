@@ -145,6 +145,7 @@
 }
 .course-image{
     width: 100%;
+    border-radius: 10px;
 }
 .course-title{
     font-family: "Pacifico";
