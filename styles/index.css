@@ -14,7 +14,7 @@
 
 .btn-login{
     border-radius: 0;
-    width: 144px;
+    min-width: 144px;
     height: 45px;
     font-family: "Montserrat Regular";
     font-size: 22px;
