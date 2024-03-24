@@ -1,9 +1,5 @@
 @import "_variables.css";
 
-.header{
-    z-index: 1031;
-}
-
 .btn-orange{
     width: 100%;
     background-color: var(--yellow-color);
