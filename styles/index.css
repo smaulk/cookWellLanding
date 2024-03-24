@@ -110,17 +110,13 @@
     text-align: center;
 }
 
-.start-block-button > button{
+.start-block-button > a{
     height: 43px;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.start-block-button > button a{
-    color: white;
-}
-.start-block-button > button a:hover{
-    color: white;
-}
-
 
 
 .courses-title {
@@ -308,7 +304,7 @@
 
 /* Small */
 @media (min-width: 576px) {
-    .start-block-button button{
+    .start-block-button a{
         height: 48px;
     }
     .start-block-title > p{
@@ -400,7 +396,7 @@
         width: 140px;
         height: 140px;
     }
-    .start-block-button button{
+    .start-block-button a{
         height: 60px;
         font-size: 20px;
     }
@@ -442,7 +438,7 @@
         width: 185px;
         height: 185px;
     }
-    .start-block-button button{
+    .start-block-button a{
         height: 64px;
     }
     .courses-title {
